@@ -3690,7 +3690,7 @@ ul.blog-post-meta li .icon {
 .footer-minimal {
 	padding: 60px 0;
 	text-align: center;
-	background: #343333;
+	background: #8B4513;
 }
 
 @media (min-width: 992px) {
@@ -6036,7 +6036,7 @@ html.tablet .ui-to-top {
 .rd-navbar-static .rd-nav-link {
 	position: relative;
 	display: inline-block;
-	color: #ffffff;
+	color: #000;
 	font-size: 15px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
@@ -7059,25 +7059,115 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 }
 
 .ftco-intro {
-	margin-top: -80px; }
-	.ftco-intro.ftco-intro-2 {
-	  margin-top: 0 !important; }
-	.ftco-intro .block-18 {
-	  display: block;
-	  width: 100%;
-	  padding: 30px;
-	  color: rgba(0, 0, 0, 0.7); }
-	  .ftco-intro .block-18.color-1 {
-		background: #f86f2d; }
-	  .ftco-intro .block-18.color-2 {
-		background: #fa8f3d; }
-	  .ftco-intro .block-18.color-3 {
-		background: #faaa3a; }
-	  .ftco-intro .block-18 .text strong {
-		font-size: 60px;
-		color: #000;
-		font-weight: 300; }
-	  .ftco-intro .block-18 .text span {
-		display: block;
-		color: #000;
-		font-size: 24px; }
+	margin-top: -80px;
+ }
+.ftco-intro.ftco-intro-2 {
+	margin-top: 0 !important;
+ }
+	
+.ftco-intro .block-18 {
+	display: block;
+	width: 100%;
+	padding: 30px;
+	color: rgba(0, 0, 0, 0.7); 
+}
+
+.ftco-intro .block-18.color-1 {
+	background: #f86f2d; 
+}
+
+.ftco-intro .block-18.color-2 {
+	background: #fa8f3d;
+}
+.ftco-intro .block-18.color-3 {
+	background: #faaa3a; 
+}
+.ftco-intro .block-18 .text strong {
+	font-size: 60px;
+	color: #000;
+	font-weight: 300; 
+}
+.ftco-intro .block-18 .text span {
+	display: block;
+	color: #000;
+	font-size: 24px; 
+}
+
+.single-project .content{
+	position:relative;
+	max-width:400px;
+	margin:auto;
+	overflow:hidden
+}
+.single-project .content .content-overlay{
+	position:absolute;
+	left:0;
+	top:0;
+	bottom:0;
+	right:0;
+	opacity:0;
+	-webkit-transition:all 0.4s ease-in-out 0s;
+	-moz-transition:all 0.4s ease-in-out 0s;
+	transition:all 0.4s ease-in-out 0s
+}
+@media (max-width: 767px){
+	.single-project .content .content-overlay{
+		left:20px;
+		width:90%
+	}
+}
+@media (max-width: 414px){
+	.single-project .content .content-overlay{
+		left:11px;
+		width:94%
+	}
+}
+
+@media (max-width: 413px){
+	.single-project .content .content-overlay{
+		left:0;
+		width:100%
+	}
+}
+
+.single-project .content:hover .content-overlay{
+	opacity:.8
+}
+
+.single-project .content-details{
+	position:absolute;
+	text-align:center;
+	padding-left:1em;
+	padding-right:1em;
+	width:100%;
+	top:50%;
+	left:50%;
+	opacity:0;
+	-webkit-transform:translate(-50%, -50%);
+	-moz-transform:translate(-50%, -50%);
+	transform:translate(-50%, -50%);
+	-webkit-transition:all 0.3s ease-in-out 0s;
+	-moz-transition:all 0.3s ease-in-out 0s;
+	transition:all 0.3s ease-in-out 0s
+}
+
+.single-project .content-title{
+	font-size:18px;
+	color:#fff;
+	font-weight:500
+}
+
+.single-project .content:hover .content-details{
+	top:50%;
+	left:50%;
+	opacity:1
+}
+
+.single-project .content-details p{
+	color:#fff;
+	font-size:0.8em
+}
+
+.single-project .fadeIn-bottom{
+	top:80%
+}
