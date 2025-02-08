@@ -3688,16 +3688,11 @@ ul.blog-post-meta li .icon {
 }
 
 .footer-minimal {
-	padding: 60px 0;
+	padding: 30px 0;
 	text-align: center;
-	background: #8B4513;
+	background: #808080;
 }
 
-@media (min-width: 992px) {
-	.footer-minimal {
-		padding: 120px 0;
-	}
-}
 
 .footer-minimal .icon-bg-white {
 	background: rgba(255, 255, 255, 0.05);
