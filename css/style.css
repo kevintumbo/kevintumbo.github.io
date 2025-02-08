@@ -6337,6 +6337,11 @@ html.tablet .ui-to-top {
 	text-align: left;
 	font-size: 22px;
 	margin-top: -2px;
+	color: #135DEC;
+}
+
+.rd-navbar-fixed .rd-navbar-brand{
+	color: #135DEC;
 }
 
 .rd-navbar-fixed .rd-navbar-brand img {
