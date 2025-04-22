@@ -1021,6 +1021,10 @@ a[href*='tel'], a[href*='mailto'] {
 /*
 * Element groups
 */
+html {
+	scroll-behavior: smooth;
+}
+
 html .group {
 	margin-bottom: -20px;
 	margin-left: -15px;
