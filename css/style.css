@@ -7178,3 +7178,68 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 .about-right h1{
 	font-size:25px
 }
+
+.card {
+	width: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	box-shadow: rgba(134, 134, 134, 0.16) 0px 6px 24px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	background-color: rgb(255, 255, 255);
+	padding-top: 40px;
+	padding-right: 30px;
+	padding-bottom: 40px;
+	padding-left: 30px;
+}
+  
+.img-wrapper {
+	width: 175px;
+	height: 175px;
+	clip-path: circle(50% at 50% 50%);
+}
+
+.card-content {
+	text-align: left;
+	margin-top: 0px;
+	margin-right: 0px;
+	  margin-bottom: 0px;
+  	margin-left: 30px;
+}
+
+.name {
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 28px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	line-height: 27px;
+}
+  
+.position {
+	line-height: 26px;
+	color: rgb(0, 166, 127);
+	font-weight: 700;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+
+.testimonial {
+	color: rgb(122, 122, 122);
+	font-size: 18px;
+	line-height: 27px;
+}
+
+.text-blk {
+	line-height: 25px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
