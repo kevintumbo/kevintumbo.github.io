@@ -885,7 +885,6 @@ a[href*='tel'], a[href*='mailto'] {
 	max-width: 710px;
 	margin-left: auto;
 	margin-right: auto;
-	float: right;
 }
 
 .bunner-content-modern p {
