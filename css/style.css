@@ -5832,7 +5832,7 @@ html.tablet .ui-to-top {
 .rd-navbar-toggle span:after, .rd-navbar-toggle span:before, .rd-navbar-toggle span {
 	width: 36px;
 	height: 2px;
-	background-color: #E7E7E7;
+	background-color: #274C77;
 	backface-visibility: hidden;
 	border-radius: 5px;
 }
@@ -6704,20 +6704,20 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-fixed .rd-navbar-panel {
-	color: #9b9b9b;
-	background: #444141;
+	color: #274C77;
+	background: #ffffff;
 }
 
 .rd-navbar-fixed .rd-navbar-nav-wrap {
 	color: #ffffff;
-	background: #444141;
+	background: #ffffff;
 	border: 1px solid #444141;
 	box-shadow: 0px 0px 15px rgba(21, 21, 21, 0.35);
 }
 
 .rd-navbar-fixed .rd-nav-item:hover .rd-nav-link, .rd-navbar-fixed .rd-nav-item.focus .rd-nav-link, .rd-navbar-fixed .rd-nav-item.active .rd-nav-link, .rd-navbar-fixed .rd-nav-item.opened .rd-nav-link {
 	color: #ffffff;
-	background: #7FBC4E;
+	background: #274C77;
 }
 
 .rd-navbar-fixed .rd-nav-item:hover > .rd-navbar-submenu-toggle, .rd-navbar-fixed .rd-nav-item.focus > .rd-navbar-submenu-toggle, .rd-navbar-fixed .rd-nav-item.active > .rd-navbar-submenu-toggle, .rd-navbar-fixed .rd-nav-item.opened > .rd-navbar-submenu-toggle {
